@@ -134,20 +134,13 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	#one p {
-		color: #ffffff
+	#one p, #two p, #three p , #four p {
+		color: #ffffff;
 	}
 
-	#two p {
-		color: #ffffff
-	}
-
-	#three p {
-		color: #ffffff
-	}
-
-	#four p {
-		color: #ffffff
+	#one ul, #one li,#two ul, #two li, #three ul, #three li {
+		text-align: left;
+		color: #ffffff;
 	}
 
 	#five h2,p  {
@@ -3567,10 +3560,10 @@ input, select, textarea {
 			#banner .content .image {
 				/*border-radius: 100%;*/
 				display: inline-block;
-				height: 18em;
+				height: 23em;
 				margin-left: 3em;
 				vertical-align: middle;
-				width: 18em;
+				width: 23em;
 			}
 
 				#banner .content .image img {
