@@ -150,8 +150,22 @@ input, select, textarea {
 		color: #ffffff
 	}
 
-	#five p {
-		color: #ffffff
+	#five h2,p  {
+		color: #000000;
+		
+	}
+	
+	section#five {
+		background-color: #ffffff;
+	}
+
+	section#five .button {
+		background-color: #e91e63;
+		color: #ffffff;
+	}
+
+	section#five a:hover{
+		background-color: rgba(0, 0, 0, 0.75) !important;
 	}
 
 	#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
