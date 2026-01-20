@@ -155,6 +155,7 @@ input, select, textarea {
 	section#five .button {
 		background-color: #e91e63;
 		color: #ffffff;
+		font-weight: 700;
 	}
 
 	section#five a:hover{
@@ -2452,7 +2453,7 @@ input, select, textarea {
 /* Icon */
 
 	.icon {
-		text-decoration: none;
+		text-decoration:none;
 		border-bottom: none;
 		position: relative;
 	}
@@ -2509,12 +2510,12 @@ input, select, textarea {
 			}
 
 		.icon.major {
-			background: #272833;
+			/*background: #272833;
 			border-radius: 100%;
+			height: 6em;
+			line-height: 5.65em;*/
 			cursor: default;
 			display: inline-block;
-			height: 6em;
-			line-height: 5.65em;
 			margin: 0 0 2em 0;
 			text-align: center;
 			width: 6em;
@@ -2542,8 +2543,10 @@ input, select, textarea {
 				}
 
 				.icon.major.alt:before {
-					color: #272833 !important;
-					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
+					/*color: #272833 !important;*/
+					color:#e91e63 !important;
+					/*text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;*/
+					text-shadow: 1px 0 0 #e91e63, -1px 0 0 #e91e63, 0 1px 0 #e91e63, 0 -1px 0 #e91e63;
 				}
 
 /* Image */
@@ -2940,6 +2943,7 @@ input, select, textarea {
 			background-color: #e91e63;
 			box-shadow: none;
 			color: #ffffff !important;
+			font-weight: 700;
 		}
 
 			input[type="submit"].primary:hover,
